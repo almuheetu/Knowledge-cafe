@@ -6,7 +6,8 @@ const Blogs = () => {
     useEffect(, [])
     return (
         <div>
-            
+         <h2></h2>
+
         </div>
     );
 };
