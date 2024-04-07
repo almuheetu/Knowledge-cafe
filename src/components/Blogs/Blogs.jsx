@@ -6,7 +6,7 @@ const Blogs = () => {
     useEffect(, [])
     return (
         <div>
-         <h2>Blogs Section</h2>
+
 
         </div>
     );
