@@ -2,8 +2,8 @@
 
 const Bookmarks = () => {
     return (
-        <div>
-            <h3><Book></Book>marks</h3>
+        <div className="md:w-1/3">
+            <h3>Bookmarks</h3>
         </div>
     );
 };
