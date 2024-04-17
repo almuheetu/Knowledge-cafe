@@ -11,7 +11,7 @@ const Blogs = () => {
     return (
         <div className="md:w-2/3">
             <h1 className="text-4xl">Blogs</h1>
-
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, velit?</p>
         </div>
     );
 };
