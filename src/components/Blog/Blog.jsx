@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Blog = ({blog}) => {
+const Blog = ({ blog }) => {
     const {title} = blog;
     return (
         <div>
