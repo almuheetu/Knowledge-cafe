@@ -17,7 +17,6 @@ const Blog = ({ blog }) => {
                 <div>
                     <span>{reading_time}min read</span>
                     <button><FaBeer></FaBeer></button>
-                    <p></p>
                 </div>
             </div>
             <h2 className="text-4xl">{title}</h2>
