@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { FaBeer } from "react-icons/fa";
+import { IoBookmarksOutline } from "react-icons/io5";
 
 const Blog = ({ blog }) => {
     const {title,cover,author,author_img,posted_date, reading_time,hashtags} = blog;
