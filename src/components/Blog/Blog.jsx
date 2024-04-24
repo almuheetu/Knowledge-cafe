@@ -17,7 +17,8 @@ const Blog = ({ blog }) => {
                 </div>
                 <div>
                     <span>{reading_time}min read</span>
-                    <button><FaBeer></FaBeer></button>
+                    <button><IoBookmarksOutline />
+</button>
                 </div>
             </div>
             <h2 className="text-4xl">{title}</h2>
