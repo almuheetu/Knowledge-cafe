@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import { FaBeer } from "react-icons/fa";
 import { IoBookmarksOutline } from "react-icons/io5";
 
 const Blog = ({ blog }) => {
@@ -17,7 +16,7 @@ const Blog = ({ blog }) => {
                 </div>
                 <div>
                     <span>{reading_time}min read</span>
-                    <button><IoBookmarksOutline /></button>
+                    <button className='ml-2 text-red-600'><IoBookmarksOutline /></button>
                 </div>
             </div>
             <h2 className="text-4xl">{title}</h2>
